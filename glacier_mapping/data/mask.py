@@ -142,7 +142,7 @@ def channel_mask(img_meta, shp):
             poly_shp += [poly_from_coord(row["geometry"], img_meta["transform"])]
 
         else:  # case if multipolygon
-            for geom in row["geometry"]:
+            for geom in row["geometry"].geoms:
                 poly_shp += [poly_from_coord(geom, img_meta["transform"])]
 
     im_size = (img_meta["height"], img_meta["width"])

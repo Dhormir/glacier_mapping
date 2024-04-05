@@ -8,7 +8,7 @@ process_funs:
   impute:
     value: 0
   normalize:
-    stats_path: "/datadrive/glaciers/processed/patches/stats_train.json"
+    stats_path: "glacier_data/processed/patches/stats_train.json"
   impute:
     value: 0
   extract_channel:

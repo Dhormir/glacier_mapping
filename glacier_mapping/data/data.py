@@ -25,14 +25,14 @@ def fetch_loaders(processed_dir, batch_size=32,
     val_dataset = GlacierDataset(processed_dir / dev_folder)
     loader = {
         "train": DataLoader(train_dataset, batch_size=batch_size,
-                            num_workers=8, shuffle=shuffle),
+                            num_workers=1, shuffle=shuffle),
         "val": DataLoader(val_dataset, batch_size=batch_size,
-                          num_workers=3, shuffle=False)}
+                          num_workers=1, shuffle=False)}
 
     if test_folder:
         test_dataset = GlacierDataset(processed_dir / test_folder)
         loader["test"] = DataLoader(test_dataset, batch_size=batch_size,
-                                    num_workers=3, shuffle=False)
+                                    num_workers=1, shuffle=False)
 
     return loader
 
@@ -52,7 +52,6 @@ class GlacierDataset(Dataset):
             folder_path(str): A path to data directory
 
         """
-
         self.img_files = glob.glob(os.path.join(folder_path, '*img*'))
         self.mask_files = [s.replace("img", "mask") for s in self.img_files]
 
@@ -66,12 +65,10 @@ class GlacierDataset(Dataset):
         Return:
             data(x) and corresponding label(y)
         """
-
         img_path = self.img_files[index]
         mask_path = self.mask_files[index]
         data = np.load(img_path)
         label = np.load(mask_path)
-
         return torch.from_numpy(data).float(), torch.from_numpy(label).float()
 
     def __len__(self):

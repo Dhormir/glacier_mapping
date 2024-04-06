@@ -1,5 +1,5 @@
-filter_channel: [1, 2]
-filter_percentage: [0, 0]
+filter_channel: [0]
+filter_percentage: [0.1]
 split_method:
   random_split:
     split_ratio: [0.7,0.1,0.2]
@@ -8,13 +8,13 @@ process_funs:
   impute:
     value: 0
   normalize:
-    stats_path: "glacier_data/processed/patches/stats_train.json"
+    stats_path: "glacier_grey_data/processed/patches/stats_train.json"
   impute:
     value: 0
   extract_channel:
-    mask_channels: [1, 2]
-    img_channels: [0, 1, 2, 3, 4, 5, 6, 11, 12, 13, 14]
+    mask_channels: [0]
+    img_channels: [0, 1, 2, 3, 4, 5, 6, 7]
   add_bg_channel: {}
 slice:
-  overlap: 6
+  overlap: 8
   size: [512, 512]

@@ -8,8 +8,13 @@ from torch.utils.data import Dataset, DataLoader
 import numpy as np
 import torch
 
-def fetch_loaders(processed_dir, batch_size=32,
-                  train_folder='train', dev_folder='dev', test_folder='',
+def fetch_loaders(processed_dir,
+                  train_transform=None,
+                  val_transform=None,
+                  batch_size=32,
+                  train_folder='train',
+                  dev_folder='dev',
+                  test_folder='',
                   shuffle=True):
     """ Function to fetch dataLoaders for the Training / Validation
 
@@ -21,8 +26,8 @@ def fetch_loaders(processed_dir, batch_size=32,
         Returns train and val dataloaders
 
     """
-    train_dataset = GlacierDataset(processed_dir / train_folder)
-    val_dataset = GlacierDataset(processed_dir / dev_folder)
+    train_dataset = GlacierDataset(processed_dir / train_folder, train_transform)
+    val_dataset = GlacierDataset(processed_dir / dev_folder, val_transform)
     loader = {
         "train": DataLoader(train_dataset, batch_size=batch_size,
                             num_workers=1, shuffle=shuffle),
@@ -33,7 +38,7 @@ def fetch_loaders(processed_dir, batch_size=32,
         test_dataset = GlacierDataset(processed_dir / test_folder)
         loader["test"] = DataLoader(test_dataset, batch_size=batch_size,
                                     num_workers=1, shuffle=False)
-
+    
     return loader
 
 
@@ -45,7 +50,7 @@ class GlacierDataset(Dataset):
 
     """
 
-    def __init__(self, folder_path):
+    def __init__(self, folder_path, transform=None):
         """Initialize dataset.
 
         Args:
@@ -54,9 +59,9 @@ class GlacierDataset(Dataset):
         """
         self.img_files = glob.glob(os.path.join(folder_path, '*img*'))
         self.mask_files = [s.replace("img", "mask") for s in self.img_files]
+        self.transform = transform
 
     def __getitem__(self, index):
-
         """ getitem method to retrieve a single instance of the dataset
 
         Args:
@@ -69,6 +74,13 @@ class GlacierDataset(Dataset):
         mask_path = self.mask_files[index]
         data = np.load(img_path)
         label = np.load(mask_path)
+
+        if self.transform is not None:
+            augmentations = self.transform(image=data, mask=label)
+            data = augmentations["image"]
+            label = augmentations["mask"]
+        print(data.shape)
+        print(label.shape)
         return torch.from_numpy(data).float(), torch.from_numpy(label).float()
 
     def __len__(self):

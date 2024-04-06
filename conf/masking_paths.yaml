@@ -1,245 +1,180 @@
 mask_0:
-  img_path: glacier_data\raster_data\LE07_134040_20070922.tif
+  img_path: glacier_grey_data\raster_data\landsat_8_20150123.tif
   mask_paths:
-  - glacier_data\vector_data\Glacier_2005.shp
-  - glacier_data\vector_data\clean.shp
-  - glacier_data\vector_data\debris.shp
-  border_path: glacier_data\vector_data\hkh.shp
+  - glacier_grey_data\vector_data\Grey_2016.shp
+  border_path: glacier_grey_data\vector_data\CHL_adm0.shp
 mask_1:
-  img_path: glacier_data\raster_data\LE07_135040_20081102.tif
+  img_path: glacier_grey_data\raster_data\landsat_8_20150819.tif
   mask_paths:
-  - glacier_data\vector_data\Glacier_2005.shp
-  - glacier_data\vector_data\clean.shp
-  - glacier_data\vector_data\debris.shp
-  border_path: glacier_data\vector_data\hkh.shp
+  - glacier_grey_data\vector_data\Grey_2016.shp
+  border_path: glacier_grey_data\vector_data\CHL_adm0.shp
 mask_2:
-  img_path: glacier_data\raster_data\LE07_136040_20060731.tif
+  img_path: glacier_grey_data\raster_data\landsat_8_20150920.tif
   mask_paths:
-  - glacier_data\vector_data\Glacier_2005.shp
-  - glacier_data\vector_data\clean.shp
-  - glacier_data\vector_data\debris.shp
-  border_path: glacier_data\vector_data\hkh.shp
+  - glacier_grey_data\vector_data\Grey_2016.shp
+  border_path: glacier_grey_data\vector_data\CHL_adm0.shp
 mask_3:
-  img_path: glacier_data\raster_data\LE07_136041_20060731.tif
+  img_path: glacier_grey_data\raster_data\landsat_8_20160110.tif
   mask_paths:
-  - glacier_data\vector_data\Glacier_2005.shp
-  - glacier_data\vector_data\clean.shp
-  - glacier_data\vector_data\debris.shp
-  border_path: glacier_data\vector_data\hkh.shp
+  - glacier_grey_data\vector_data\Grey_2016.shp
+  border_path: glacier_grey_data\vector_data\CHL_adm0.shp
 mask_4:
-  img_path: glacier_data\raster_data\LE07_137041_20060127.tif
+  img_path: glacier_grey_data\raster_data\landsat_8_20160321.tif
   mask_paths:
-  - glacier_data\vector_data\Glacier_2005.shp
-  - glacier_data\vector_data\clean.shp
-  - glacier_data\vector_data\debris.shp
-  border_path: glacier_data\vector_data\hkh.shp
+  - glacier_grey_data\vector_data\Grey_2016.shp
+  border_path: glacier_grey_data\vector_data\CHL_adm0.shp
 mask_5:
-  img_path: glacier_data\raster_data\LE07_138041_20071223.tif
+  img_path: glacier_grey_data\raster_data\landsat_8_20160422.tif
   mask_paths:
-  - glacier_data\vector_data\Glacier_2005.shp
-  - glacier_data\vector_data\clean.shp
-  - glacier_data\vector_data\debris.shp
-  border_path: glacier_data\vector_data\hkh.shp
+  - glacier_grey_data\vector_data\Grey_2016.shp
+  border_path: glacier_grey_data\vector_data\CHL_adm0.shp
 mask_6:
-  img_path: glacier_data\raster_data\LE07_139041_20051208.tif
+  img_path: glacier_grey_data\raster_data\landsat_8_20160501.tif
   mask_paths:
-  - glacier_data\vector_data\Glacier_2005.shp
-  - glacier_data\vector_data\clean.shp
-  - glacier_data\vector_data\debris.shp
-  border_path: glacier_data\vector_data\hkh.shp
+  - glacier_grey_data\vector_data\Grey_2016.shp
+  border_path: glacier_grey_data\vector_data\CHL_adm0.shp
 mask_7:
-  img_path: glacier_data\raster_data\LE07_140041_20071221.tif
+  img_path: glacier_grey_data\raster_data\landsat_8_20160929.tif
   mask_paths:
-  - glacier_data\vector_data\Glacier_2005.shp
-  - glacier_data\vector_data\clean.shp
-  - glacier_data\vector_data\debris.shp
-  border_path: glacier_data\vector_data\hkh.shp
+  - glacier_grey_data\vector_data\Grey_2016.shp
+  border_path: glacier_grey_data\vector_data\CHL_adm0.shp
 mask_8:
-  img_path: glacier_data\raster_data\LE07_143039_20081212.tif
+  img_path: glacier_grey_data\raster_data\landsat_8_20170204.tif
   mask_paths:
-  - glacier_data\vector_data\Glacier_2005.shp
-  - glacier_data\vector_data\clean.shp
-  - glacier_data\vector_data\debris.shp
-  border_path: glacier_data\vector_data\hkh.shp
+  - glacier_grey_data\vector_data\Grey_2016.shp
+  border_path: glacier_grey_data\vector_data\CHL_adm0.shp
 mask_9:
-  img_path: glacier_data\raster_data\LE07_144039_20011013.tif
+  img_path: glacier_grey_data\raster_data\landsat_8_20170317.tif
   mask_paths:
-  - glacier_data\vector_data\Glacier_2005.shp
-  - glacier_data\vector_data\clean.shp
-  - glacier_data\vector_data\debris.shp
-  border_path: glacier_data\vector_data\hkh.shp
+  - glacier_grey_data\vector_data\Grey_2016.shp
+  border_path: glacier_grey_data\vector_data\CHL_adm0.shp
 mask_10:
-  img_path: glacier_data\raster_data\LE07_145039_20011020.tif
+  img_path: glacier_grey_data\raster_data\landsat_8_20170504.tif
   mask_paths:
-  - glacier_data\vector_data\Glacier_2005.shp
-  - glacier_data\vector_data\clean.shp
-  - glacier_data\vector_data\debris.shp
-  border_path: glacier_data\vector_data\hkh.shp
+  - glacier_grey_data\vector_data\Grey_2016.shp
+  border_path: glacier_grey_data\vector_data\CHL_adm0.shp
 mask_11:
-  img_path: glacier_data\raster_data\LE07_146036_20090814.tif
+  img_path: glacier_grey_data\raster_data\landsat_8_20180320.tif
   mask_paths:
-  - glacier_data\vector_data\Glacier_2005.shp
-  - glacier_data\vector_data\clean.shp
-  - glacier_data\vector_data\debris.shp
-  border_path: glacier_data\vector_data\hkh.shp
+  - glacier_grey_data\vector_data\Grey_2016.shp
+  border_path: glacier_grey_data\vector_data\CHL_adm0.shp
 mask_12:
-  img_path: glacier_data\raster_data\LE07_146037_20071231.tif
+  img_path: glacier_grey_data\raster_data\landsat_8_20180327.tif
   mask_paths:
-  - glacier_data\vector_data\Glacier_2005.shp
-  - glacier_data\vector_data\clean.shp
-  - glacier_data\vector_data\debris.shp
-  border_path: glacier_data\vector_data\hkh.shp
+  - glacier_grey_data\vector_data\Grey_2016.shp
+  border_path: glacier_grey_data\vector_data\CHL_adm0.shp
 mask_13:
-  img_path: glacier_data\raster_data\LE07_146038_20060923.tif
+  img_path: glacier_grey_data\raster_data\landsat_8_20190109.tif
   mask_paths:
-  - glacier_data\vector_data\Glacier_2005.shp
-  - glacier_data\vector_data\clean.shp
-  - glacier_data\vector_data\debris.shp
-  border_path: glacier_data\vector_data\hkh.shp
+  - glacier_grey_data\vector_data\Grey_2016.shp
+  border_path: glacier_grey_data\vector_data\CHL_adm0.shp
 mask_14:
-  img_path: glacier_data\raster_data\LE07_146039_20051123.tif
+  img_path: glacier_grey_data\raster_data\landsat_8_20190203.tif
   mask_paths:
-  - glacier_data\vector_data\Glacier_2005.shp
-  - glacier_data\vector_data\clean.shp
-  - glacier_data\vector_data\debris.shp
-  border_path: glacier_data\vector_data\hkh.shp
+  - glacier_grey_data\vector_data\Grey_2016.shp
+  border_path: glacier_grey_data\vector_data\CHL_adm0.shp
 mask_15:
-  img_path: glacier_data\raster_data\LE07_147035_20050826.tif
+  img_path: glacier_grey_data\raster_data\landsat_8_20190226.tif
   mask_paths:
-  - glacier_data\vector_data\Glacier_2005.shp
-  - glacier_data\vector_data\clean.shp
-  - glacier_data\vector_data\debris.shp
-  border_path: glacier_data\vector_data\hkh.shp
+  - glacier_grey_data\vector_data\Grey_2016.shp
+  border_path: glacier_grey_data\vector_data\CHL_adm0.shp
 mask_16:
-  img_path: glacier_data\raster_data\LE07_147036_20060930.tif
+  img_path: glacier_grey_data\raster_data\landsat_8_20190805.tif
   mask_paths:
-  - glacier_data\vector_data\Glacier_2005.shp
-  - glacier_data\vector_data\clean.shp
-  - glacier_data\vector_data\debris.shp
-  border_path: glacier_data\vector_data\hkh.shp
+  - glacier_grey_data\vector_data\Grey_2016.shp
+  border_path: glacier_grey_data\vector_data\CHL_adm0.shp
 mask_17:
-  img_path: glacier_data\raster_data\LE07_147037_20060930.tif
+  img_path: glacier_grey_data\raster_data\landsat_8_20190814.tif
   mask_paths:
-  - glacier_data\vector_data\Glacier_2005.shp
-  - glacier_data\vector_data\clean.shp
-  - glacier_data\vector_data\debris.shp
-  border_path: glacier_data\vector_data\hkh.shp
+  - glacier_grey_data\vector_data\Grey_2016.shp
+  border_path: glacier_grey_data\vector_data\CHL_adm0.shp
 mask_18:
-  img_path: glacier_data\raster_data\LE07_147038_20040908.tif
+  img_path: glacier_grey_data\raster_data\landsat_8_20190906.tif
   mask_paths:
-  - glacier_data\vector_data\Glacier_2005.shp
-  - glacier_data\vector_data\clean.shp
-  - glacier_data\vector_data\debris.shp
-  border_path: glacier_data\vector_data\hkh.shp
+  - glacier_grey_data\vector_data\Grey_2016.shp
+  border_path: glacier_grey_data\vector_data\CHL_adm0.shp
 mask_19:
-  img_path: glacier_data\raster_data\LE07_148035_20061108.tif
+  img_path: glacier_grey_data\raster_data\landsat_8_20190915.tif
   mask_paths:
-  - glacier_data\vector_data\Glacier_2005.shp
-  - glacier_data\vector_data\clean.shp
-  - glacier_data\vector_data\debris.shp
-  border_path: glacier_data\vector_data\hkh.shp
+  - glacier_grey_data\vector_data\Grey_2016.shp
+  border_path: glacier_grey_data\vector_data\CHL_adm0.shp
 mask_20:
-  img_path: glacier_data\raster_data\LE07_148036_20050902.tif
+  img_path: glacier_grey_data\raster_data\landsat_8_20200206.tif
   mask_paths:
-  - glacier_data\vector_data\Glacier_2005.shp
-  - glacier_data\vector_data\clean.shp
-  - glacier_data\vector_data\debris.shp
-  border_path: glacier_data\vector_data\hkh.shp
+  - glacier_grey_data\vector_data\Grey_2016.shp
+  border_path: glacier_grey_data\vector_data\CHL_adm0.shp
 mask_21:
-  img_path: glacier_data\raster_data\LE07_148037_20071127.tif
+  img_path: glacier_grey_data\raster_data\landsat_8_20200417.tif
   mask_paths:
-  - glacier_data\vector_data\Glacier_2005.shp
-  - glacier_data\vector_data\clean.shp
-  - glacier_data\vector_data\debris.shp
-  border_path: glacier_data\vector_data\hkh.shp
+  - glacier_grey_data\vector_data\Grey_2016.shp
+  border_path: glacier_grey_data\vector_data\CHL_adm0.shp
 mask_22:
-  img_path: glacier_data\raster_data\LE07_149034_20060726.tif
+  img_path: glacier_grey_data\raster_data\landsat_8_20210303.tif
   mask_paths:
-  - glacier_data\vector_data\Glacier_2005.shp
-  - glacier_data\vector_data\clean.shp
-  - glacier_data\vector_data\debris.shp
-  border_path: glacier_data\vector_data\hkh.shp
+  - glacier_grey_data\vector_data\Grey_2016.shp
+  border_path: glacier_grey_data\vector_data\CHL_adm0.shp
 mask_23:
-  img_path: glacier_data\raster_data\LE07_149035_20070915.tif
+  img_path: glacier_grey_data\raster_data\landsat_8_20210328.tif
   mask_paths:
-  - glacier_data\vector_data\Glacier_2005.shp
-  - glacier_data\vector_data\clean.shp
-  - glacier_data\vector_data\debris.shp
-  border_path: glacier_data\vector_data\hkh.shp
+  - glacier_grey_data\vector_data\Grey_2016.shp
+  border_path: glacier_grey_data\vector_data\CHL_adm0.shp
 mask_24:
-  img_path: glacier_data\raster_data\LE07_149036_20071102.tif
+  img_path: glacier_grey_data\raster_data\landsat_8_20210420.tif
   mask_paths:
-  - glacier_data\vector_data\Glacier_2005.shp
-  - glacier_data\vector_data\clean.shp
-  - glacier_data\vector_data\debris.shp
-  border_path: glacier_data\vector_data\hkh.shp
+  - glacier_grey_data\vector_data\Grey_2016.shp
+  border_path: glacier_grey_data\vector_data\CHL_adm0.shp
 mask_25:
-  img_path: glacier_data\raster_data\LE07_149037_20041024.tif
+  img_path: glacier_grey_data\raster_data\landsat_8_20210810.tif
   mask_paths:
-  - glacier_data\vector_data\Glacier_2005.shp
-  - glacier_data\vector_data\clean.shp
-  - glacier_data\vector_data\debris.shp
-  border_path: glacier_data\vector_data\hkh.shp
+  - glacier_grey_data\vector_data\Grey_2016.shp
+  border_path: glacier_grey_data\vector_data\CHL_adm0.shp
 mask_26:
-  img_path: glacier_data\raster_data\LE07_150034_20050916.tif
+  img_path: glacier_grey_data\raster_data\landsat_8_20210826.tif
   mask_paths:
-  - glacier_data\vector_data\Glacier_2005.shp
-  - glacier_data\vector_data\clean.shp
-  - glacier_data\vector_data\debris.shp
-  border_path: glacier_data\vector_data\hkh.shp
+  - glacier_grey_data\vector_data\Grey_2016.shp
+  border_path: glacier_grey_data\vector_data\CHL_adm0.shp
 mask_27:
-  img_path: glacier_data\raster_data\LE07_150035_20050916.tif
+  img_path: glacier_grey_data\raster_data\landsat_8_20220117.tif
   mask_paths:
-  - glacier_data\vector_data\Glacier_2005.shp
-  - glacier_data\vector_data\clean.shp
-  - glacier_data\vector_data\debris.shp
-  border_path: glacier_data\vector_data\hkh.shp
+  - glacier_grey_data\vector_data\Grey_2016.shp
+  border_path: glacier_grey_data\vector_data\CHL_adm0.shp
 mask_28:
-  img_path: glacier_data\raster_data\LE07_150036_20050916.tif
+  img_path: glacier_grey_data\raster_data\landsat_8_20220407.tif
   mask_paths:
-  - glacier_data\vector_data\Glacier_2005.shp
-  - glacier_data\vector_data\clean.shp
-  - glacier_data\vector_data\debris.shp
-  border_path: glacier_data\vector_data\hkh.shp
+  - glacier_grey_data\vector_data\Grey_2016.shp
+  border_path: glacier_grey_data\vector_data\CHL_adm0.shp
 mask_29:
-  img_path: glacier_data\raster_data\LE07_151034_20050822.tif
+  img_path: glacier_grey_data\raster_data\landsat_8_20220907.tif
   mask_paths:
-  - glacier_data\vector_data\Glacier_2005.shp
-  - glacier_data\vector_data\clean.shp
-  - glacier_data\vector_data\debris.shp
-  border_path: glacier_data\vector_data\hkh.shp
+  - glacier_grey_data\vector_data\Grey_2016.shp
+  border_path: glacier_grey_data\vector_data\CHL_adm0.shp
 mask_30:
-  img_path: glacier_data\raster_data\LE07_151035_20060708.tif
+  img_path: glacier_grey_data\raster_data\landsat_8_20221016.tif
   mask_paths:
-  - glacier_data\vector_data\Glacier_2005.shp
-  - glacier_data\vector_data\clean.shp
-  - glacier_data\vector_data\debris.shp
-  border_path: glacier_data\vector_data\hkh.shp
+  - glacier_grey_data\vector_data\Grey_2016.shp
+  border_path: glacier_grey_data\vector_data\CHL_adm0.shp
 mask_31:
-  img_path: glacier_data\raster_data\LE07_152033_20060731.tif
+  img_path: glacier_grey_data\raster_data\landsat_8_20221219.tif
   mask_paths:
-  - glacier_data\vector_data\Glacier_2005.shp
-  - glacier_data\vector_data\clean.shp
-  - glacier_data\vector_data\debris.shp
-  border_path: glacier_data\vector_data\hkh.shp
+  - glacier_grey_data\vector_data\Grey_2016.shp
+  border_path: glacier_grey_data\vector_data\CHL_adm0.shp
 mask_32:
-  img_path: glacier_data\raster_data\LE07_152034_20060731.tif
+  img_path: glacier_grey_data\raster_data\landsat_8_20230410.tif
   mask_paths:
-  - glacier_data\vector_data\Glacier_2005.shp
-  - glacier_data\vector_data\clean.shp
-  - glacier_data\vector_data\debris.shp
-  border_path: glacier_data\vector_data\hkh.shp
+  - glacier_grey_data\vector_data\Grey_2016.shp
+  border_path: glacier_grey_data\vector_data\CHL_adm0.shp
 mask_33:
-  img_path: glacier_data\raster_data\LE07_152035_20060917.tif
+  img_path: glacier_grey_data\raster_data\landsat_8_20230816.tif
   mask_paths:
-  - glacier_data\vector_data\Glacier_2005.shp
-  - glacier_data\vector_data\clean.shp
-  - glacier_data\vector_data\debris.shp
-  border_path: glacier_data\vector_data\hkh.shp
+  - glacier_grey_data\vector_data\Grey_2016.shp
+  border_path: glacier_grey_data\vector_data\CHL_adm0.shp
 mask_34:
-  img_path: glacier_data\raster_data\LE07_153036_20060924.tif
+  img_path: glacier_grey_data\raster_data\landsat_8_20230917.tif
   mask_paths:
-  - glacier_data\vector_data\Glacier_2005.shp
-  - glacier_data\vector_data\clean.shp
-  - glacier_data\vector_data\debris.shp
-  border_path: glacier_data\vector_data\hkh.shp
+  - glacier_grey_data\vector_data\Grey_2016.shp
+  border_path: glacier_grey_data\vector_data\CHL_adm0.shp
+mask_35:
+  img_path: glacier_grey_data\raster_data\landsat_8_20240304.tif
+  mask_paths:
+  - glacier_grey_data\vector_data\Grey_2016.shp
+  border_path: glacier_grey_data\vector_data\CHL_adm0.shp
